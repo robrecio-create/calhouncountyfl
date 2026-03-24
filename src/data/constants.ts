@@ -1,12 +1,11 @@
 export const towns = [
   { name: 'Blountstown', slug: 'blountstown', businesses: 0 },
   { name: 'Altha', slug: 'altha', businesses: 0 },
-  { name: 'Clarksville', slug: 'clarksville', businesses: 0 },
   { name: 'Scotts Ferry', slug: 'scotts-ferry', businesses: 0 },
+  { name: 'Clarksville', slug: 'clarksville', businesses: 0 },
   { name: 'Kinard', slug: 'kinard', businesses: 0 },
-  { name: 'Bristol', slug: 'bristol', businesses: 0 },
+  { name: 'Frink', slug: 'frink', businesses: 0 },
 ];
-
 export const categories = [
   { name: 'Restaurants & Dining', slug: 'restaurants-dining', icon: '🍽️', count: 0 },
   { name: 'Shopping & Retail', slug: 'shopping-retail', icon: '🛍️', count: 0 },
@@ -27,7 +26,6 @@ export const categories = [
   { name: 'Accommodations', slug: 'accommodations', icon: '🏨', count: 0 },
   { name: 'Appliances & Rentals', slug: 'appliances-rentals', icon: '🔌', count: 0 },
 ];
-
 export const navLinks = [
   { label: 'Home', href: '/' },
   { label: 'Listings', href: '/listings/' },
